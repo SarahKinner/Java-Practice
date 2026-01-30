@@ -1,7 +1,7 @@
 //Number guessing game
 import java.util.Scanner;
 
-public class Conditionals {
+public class Conditionals_Loops {
     public static void main(String[] args) {
         //Make scanner object
         Scanner myObj = new Scanner(System.in);
