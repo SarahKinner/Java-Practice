@@ -21,9 +21,13 @@ public class Conditionals {
     //User inputs the number they guess
     UserGuess = myObj.nextInt();
 
-    //What happens if user guesses too high
+    //if, else if, else conditional that'll deal with if number guessed is too high, low, or correct
+    if (UserGuess > SecretNumber){
+        System.out.println("You guessed too high! Try again!");
+    } else if (UserGuess < SecretNumber){
+        System.out.println("You guessed too low! Try again!");
+    } else {
+        System.out.println("Correct! You got it!");
+    }
 
-    //What happens if user guesses too low
-
-    //What happens if user guesses correctly
 }
