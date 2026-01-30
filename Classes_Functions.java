@@ -20,7 +20,7 @@ public class Character {
         System.out.println(this.name + "attacks" + target.name + "for" + this.attackPower + "damage!");
     }
 
-    //
+    //Shows how the character will heal themselves
 }
 
 public class Classes_Functions {
