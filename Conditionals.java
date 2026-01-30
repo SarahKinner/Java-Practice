@@ -9,6 +9,7 @@ public class Conditionals {
     SecretNumber = (int)(Math.random() * 10) + 1;
 
     //Print that says Im thinking of a number between 1-10
+    System.out.println("I'm thinking of a number between 1-10");
 
     //Ask the user to guess the number
 
