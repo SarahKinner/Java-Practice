@@ -15,21 +15,22 @@ public class Conditionals {
     //Print that says Im thinking of a number between 1-10
     System.out.println("I'm thinking of a number between 1-10");
 
-    //Ask the user to guess the number
-    System.out.println("Please guess the number");
-
-    //User inputs the number they guess
-    UserGuess = myObj.nextInt();
-
     //Make a loop so user can guess again and again until they get it correct
+    while (UserGuess != SecretNumber) {
+        //Ask the user to guess the number
+        System.out.println("Please guess the number");
 
-    //if, else if, else conditional that'll deal with if number guessed is too high, low, or correct
-    if (UserGuess > SecretNumber){
-        System.out.println("You guessed too high! Try again!");
-    } else if (UserGuess < SecretNumber){
-        System.out.println("You guessed too low! Try again!");
-    } else {
-        System.out.println("Correct! You got it!");
+        //User inputs the number they guess
+        UserGuess = myObj.nextInt();
+
+        //if, else if, else conditional that'll deal with if number guessed is too high, low, or correct
+        if (UserGuess > SecretNumber){
+            System.out.println("You guessed too high! Try again!");
+        } else if (UserGuess < SecretNumber){
+            System.out.println("You guessed too low! Try again!");
+        } else {
+            System.out.println("Correct! You got it!");
+        }
     }
-
+}
 }
