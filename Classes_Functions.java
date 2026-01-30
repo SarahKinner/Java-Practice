@@ -1,3 +1,19 @@
+//Simple RPG maker character and mini fight game
+
+//Create Character class
+
 public class Classes_Functions {
+    //Make scanner object
     
+    //Ask user for character's name 
+
+    //User inputs the character's name
+
+    //Enemy character with stats here
+
+    //Print off the info of the character
+
+    //Put a loop here for a fight off between the character and enemy
+
+    //After the loop do a if else statement to show if they win or lose
 }
