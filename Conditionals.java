@@ -21,6 +21,9 @@ public class Conditionals {
     //User inputs the number they guess
     UserGuess = myObj.nextInt();
 
-    //If, else, else statment if being too high, first else being two low, and second else being the correct number
-    
+    //What happens if user guesses too high
+
+    //What happens if user guesses too low
+
+    //What happens if user guesses correctly
 }
