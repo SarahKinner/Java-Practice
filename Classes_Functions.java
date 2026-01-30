@@ -1,6 +1,15 @@
 //Simple RPG maker character and mini fight game
 
 //Create Character class
+public class Character {
+    String name;
+    int health;
+    int attackPower;
+
+    public Character(String name, int health, int attackPower){
+        
+    }
+}
 
 public class Classes_Functions {
     //Make scanner object
