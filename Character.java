@@ -53,7 +53,10 @@ public class Classes_Functions {
         int enemyHealth = (int)(Math.random() * 21) + 80;
         int enemyAttack = (int)(Math.random() * 11) + 15;
 
-    //Print off the info of the character
+        //Create character and enemy objects
+        Character player = new Character(playername, playerHealth, playerAttack);
+
+        //Print off the info of the character
 
     //Put a loop here for a fight off between the character and enemy
 
