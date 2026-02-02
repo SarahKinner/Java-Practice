@@ -45,6 +45,9 @@ public class Classes_Functions {
         String playername = myObj.nextLine();
 
         //Deciding character stats here
+        int playerHealth = (int)(Math.random() * 21) + 80;
+        int playerAttack = (int)(Math.random() * 11) + 15;
+
 
         //Deciding enemy stats here
 
