@@ -32,7 +32,7 @@ public class Character {
 }
 
 public class Classes_Functions {
-    public static void(String[] args) {
+    public static void main(String[] args) {
         //Make scanner object
         Scanner myObj = new Scanner(System.in);
 
@@ -55,8 +55,11 @@ public class Classes_Functions {
 
         //Create character and enemy objects
         Character player = new Character(playername, playerHealth, playerAttack);
+        Character enemy = new Character("Evil Creechure", enemyHealth, enemyAttack);
 
         //Print off the info of the character
+        System.out.println(player.name + " - Health: " + player.health + ", Attack: " + player.attackPower);
+        System.out.println(enemy.name + " - Health: " + enemy.health + ", Attack: " + enemy.attackPower);
 
     //Put a loop here for a fight off between the character and enemy
 
