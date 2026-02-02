@@ -17,10 +17,18 @@ public class Character {
     public void attack(Character target) {
         target.health -= this.attackPower;
 
-        System.out.println(this.name + "attacks" + target.name + "for" + this.attackPower + "damage!");
+        System.out.println(this.name + " attacks " + target.name + " for " + this.attackPower + " damage!");
     }
 
     //Shows how the character will heal themselves
+    public void heal() {
+        this.health += 10;
+    }
+
+    //Check if the character is up and kicking still
+    public boolean isAlive(){
+        return this.health > 0;
+    }
 }
 
 public class Classes_Functions {
