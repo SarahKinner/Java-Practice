@@ -32,17 +32,26 @@ public class Character {
 }
 
 public class Classes_Functions {
-    //Make scanner object
-    
-    //Ask user for character's name 
+    public static void(String[] args) {
+        //Make scanner object
+        Scanner myObj = new Scanner(System.in);
 
-    //User inputs the character's name
+        //Variables needed
 
-    //Enemy character with stats here
+        //Ask user for character's name
+        System.out.println("What's the name of your character?"); 
+
+        //User inputs the character's name
+        String playername = myObj.nextLine();
+
+        //Deciding character stats here
+
+        //Deciding enemy stats here
 
     //Print off the info of the character
 
     //Put a loop here for a fight off between the character and enemy
 
     //After the loop do a if else statement to show if they win or lose
+    }
 }
