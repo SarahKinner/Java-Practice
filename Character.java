@@ -70,8 +70,13 @@ public class Classes_Functions {
             String action = myObj.nextLine();
 
             //Action if user types in attack
+            if (action.equalsIgnoreCase("attack")) {
+                player.attack(enemy);
+                //Action if user types in heal
+            } else if (action.equalsIgnoreCase("heal")) {
+                player.heal
+            }
 
-            //Action if user types in heal
 
             //Action if user goofs up with typing
 
