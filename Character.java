@@ -50,6 +50,8 @@ public class Classes_Functions {
 
 
         //Deciding enemy stats here
+        int enemyHealth = (int)(Math.random() * 21) + 80;
+        int enemyAttack = (int)(Math.random() * 11) + 15;
 
     //Print off the info of the character
 
