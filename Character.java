@@ -61,7 +61,21 @@ public class Classes_Functions {
         System.out.println(player.name + " - Health: " + player.health + ", Attack: " + player.attackPower);
         System.out.println(enemy.name + " - Health: " + enemy.health + ", Attack: " + enemy.attackPower);
 
-    //Put a loop here for a fight off between the character and enemy
+        //Put a loop here for a fight off between the character and enemy
+        while (player.isAlive() && enemy.isAlive()) {
+            //Asks the user what they want to do
+            System.out.println("Do you want to attack the enemy or heal yourself?");
+
+            //Whatever the user inputs that'll be in the string for this loop
+            String action = myObj.nextLine();
+
+            //Action if user types in attack
+
+            //Action if user types in heal
+
+            //Action if user goofs up with typing
+
+        }
 
     //After the loop do a if else statement to show if they win or lose
     }
