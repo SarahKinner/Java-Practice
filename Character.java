@@ -74,7 +74,7 @@ public class Classes_Functions {
                 player.attack(enemy);
                 //Action if user types in heal
             } else if (action.equalsIgnoreCase("heal")) {
-                player.heal
+                player.heal();
             }
 
 
