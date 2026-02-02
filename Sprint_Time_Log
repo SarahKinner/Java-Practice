@@ -26,12 +26,12 @@ The expected minimum amount of time each Sprint for each category is as follows:
 
 |Date      |Start Time|Category|Description                                 |Total Minutes|
 |----------|----------|:------:|--------------------------------------------|:-----------:|
-|1/26/26   |9 AM      |MTG     |Made a goal for and planned what we're doing for sprint                                                                      |60           |
+|1/26/26   |10:15 AM    |MTG     |Made a goal for and planned what we're doing for sprint                                                                      |60           |
 |1/27/26   |10:55 PM  |IM      |Download java, added files needed, and figured out how I'm going to run the program                                                                     |60           |
 |1/29/26   |5:04 PM   |IM      |Started working on conditionals with a guessing number game
                                                                             |60           |
 |1/29/26   |11:49 PM  |IM      |Added the loop to conditionals/loop program and final fixes for now and started to work on the character class                                                                       |60           |
-|1/30/26   |9 AM      |MTG     |Reported our progress and if we're glad with our progress right now                                                                         |60           |
+|1/30/26   |10:15 AM    |MTG     |Reported our progress and if we're glad with our progress right now                                                                         |60           |
 |1/2/26    |12:17 AM  |IM      |Finished the functions/methods needed for character, have user ask for the characters name, randomly generate the health and attack power for the character and enemy each time to make it unique, make objects for them, print out the stats before the battle and started working on the loop needed for the battle                |120           |
 
 _Note: Add more rows as needed._
