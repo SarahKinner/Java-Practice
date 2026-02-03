@@ -31,8 +31,12 @@ The expected minimum amount of time each Sprint for each category is as follows:
 |1/29/26   |5:04 PM   |IM      |Started working on conditionals with a guessing number game
                                                                             |60           |
 |1/29/26   |11:49 PM  |IM      |Added the loop to conditionals/loop program and final fixes for now and started to work on the character class                                                                       |60           |
-|1/30/26   |10:15 AM    |MTG     |Reported our progress and if we're glad with our progress right now                                                                         |60           |
+|1/30/26   |10:15 AM  |MTG     |Reported our progress and if we're glad with our progress right now                                                                         |60           |
 |1/2/26    |12:17 AM  |IM      |Finished the functions/methods needed for character, have user ask for the characters name, randomly generate the health and attack power for the character and enemy each time to make it unique, make objects for them, print out the stats before the battle and started working on the loop needed for the battle                |120           |
+|1/2/26    |10:15 AM  |TP      |Work on the presentation slide and work on the sketches on the side
+                                                                            |60            |
+|1/2/26    |10:01     |TP      |Digitalize the right and wrong sprites needed for the project
+                                                                            |200           |
 
 _Note: Add more rows as needed._
 
@@ -41,6 +45,6 @@ _Note: Add more rows as needed._
 |Categroy                       |Total Time (Hours:Minutes)|
 |-------------------------------|:------------------------:|
 |IM - Individual Module         |         5:00             |
-|TP - Team Project              |                          |
+|TP - Team Project              |         4:20             |
 |MTG - Class Meetings           |         2:00             |
 |**TOTAL**                      |                          |
