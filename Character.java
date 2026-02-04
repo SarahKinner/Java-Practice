@@ -64,7 +64,7 @@ public class Classes_Functions {
         //Put a loop here for a fight off between the character and enemy
         while (player.isAlive() && enemy.isAlive()) {
             //Asks the user what they want to do
-            System.out.println("Do you want to attack the enemy or heal yourself?");
+            System.out.println("Do you want to attack the enemy or heal yourself? (Type in attack or heal)");
 
             //Whatever the user inputs that'll be in the string for this loop
             String action = myObj.nextLine();
@@ -75,10 +75,17 @@ public class Classes_Functions {
                 //Action if user types in heal
             } else if (action.equalsIgnoreCase("heal")) {
                 player.heal();
+                //Action if user goofs up with typing
+            } else{
+                System.out.println("Womp womp you lose a turn! Get better at typing next time.");
+            }
+
+            //Checks if the enemy is alive and if it is it attacks
+            if (enemy.isAlive()) {
+                enemy.attack(player);
             }
 
 
-            //Action if user goofs up with typing
 
         }
 
