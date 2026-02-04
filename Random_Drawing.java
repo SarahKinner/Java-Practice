@@ -13,7 +13,10 @@ public class Random_Drawing {
     //Ask the user to input the names
     System.out.println("Enter names for the lottery (Type 'done' when you are finished)");
 
-    //Read the users input and put it to the list
+    //Read the users input
+    while (true) {
+        String name = myObj.nextLine();
+    }
 
     //Draw a random winner from the array list
 
