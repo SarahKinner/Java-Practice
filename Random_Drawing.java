@@ -8,7 +8,7 @@ public class Random_Drawing {
     Scanner myObj = new Scanner(System.in);
 
     //Make the array list
-    ArrayList<String> person = new ArrayList<String>();
+    ArrayList<String> people = new ArrayList<String>();
 
     //Ask the user to input the names
     System.out.println("Enter names for the lottery (Type 'done' when you are finished)");
@@ -27,7 +27,7 @@ public class Random_Drawing {
     }
 
     //Draw a random winner from the array list
-    int winnerIndex = int (Math.random() * people.size());
+    int winnerIndex = (int) (Math.random() * people.size());
     String winner = people.get(winnerIndex);
 
     //Print out the winner
@@ -36,4 +36,3 @@ public class Random_Drawing {
     myObj.close();
     }
 }
-
