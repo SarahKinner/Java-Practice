@@ -22,10 +22,13 @@ public class Random_Drawing {
             break;
         }
 
+        //Add the name to the array
         people.add(name);
     }
 
     //Draw a random winner from the array list
+    int winnerIndex = int (Math.random() * people.size());
+    String winner = people.get(winnerIndex);
 
     //Print out the winner
     }
