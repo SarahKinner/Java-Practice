@@ -31,6 +31,9 @@ public class Random_Drawing {
     String winner = people.get(winnerIndex);
 
     //Print out the winner
+    System.out.println("The winner is: " + winner + " 🎉");
+
+    myObj.close();
     }
 }
 
