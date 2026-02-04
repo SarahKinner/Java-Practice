@@ -86,9 +86,8 @@ public class Classes_Functions {
             }
 
             //Prints out the health for both the character and enemy after they both have a turn
-
-
-
+            System.out.println(player.name + "health: " + player.health);
+            System.out.println(enemy.name + "health: " + enemy.health);z
         }
 
     //After the loop do a if else statement to show if they win or lose
