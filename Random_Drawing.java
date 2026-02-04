@@ -16,6 +16,11 @@ public class Random_Drawing {
     //Read the users input
     while (true) {
         String name = myObj.nextLine();
+
+        //Basically checks is the user inputted done and if so it'll exit out of the loop
+        if (name.equalsIgnoreCase("done")) {
+            break;
+        }
     }
 
     //Draw a random winner from the array list
