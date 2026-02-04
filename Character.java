@@ -94,6 +94,8 @@ public class Classes_Functions {
         //After the loop do a if else statement to show if they win or lose
         if (player.isAlive()) {
             System.out.println("You defeated the enemy huzzah!");
+        } else {
+            System.out.println("You died bro 💀 💀 💀 Get better at video games idk.")
         }
     }
 }
