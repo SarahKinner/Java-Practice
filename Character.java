@@ -91,6 +91,9 @@ public class Classes_Functions {
             System.out.println(enemy.name + " health: " + enemy.health);
         }
 
-    //After the loop do a if else statement to show if they win or lose
+        //After the loop do a if else statement to show if they win or lose
+        if (player.isAlive()) {
+            System.out.println("You defeated the enemy huzzah!");
+        }
     }
 }
