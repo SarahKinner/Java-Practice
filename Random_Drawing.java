@@ -10,7 +10,8 @@ public class Random_Drawing {
     //Make the array list
     ArrayList<String> person = new ArrayList<String>();
 
-    //Ask the user to input the names and when they are done
+    //Ask the user to input the names
+    System.out.println("Enter names for the lottery (Type 'done' when you are finished)");
 
     //Read the users input and put it to the list
 
