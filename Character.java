@@ -85,6 +85,8 @@ public class Classes_Functions {
                 enemy.attack(player);
             }
 
+            //Prints out the health for both the character and enemy after they both have a turn
+
 
 
         }
