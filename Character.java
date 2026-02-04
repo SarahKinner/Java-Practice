@@ -97,5 +97,8 @@ public class Classes_Functions {
         } else {
             System.out.println("You died bro 💀 💀 💀 Get better at video games idk.")
         }
+
+        //Closes the scanner I made
+        myObj.close();
     }
 }
