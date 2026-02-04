@@ -32,7 +32,7 @@ public class Character {
     }
 }
 
-public class Character {
+public class RPGGame {
     public static void main(String[] args) {
         //Make scanner object
         Scanner myObj = new Scanner(System.in);
