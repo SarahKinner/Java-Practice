@@ -1,0 +1,73 @@
+//Simple RPG maker character and mini fight game
+import java.util.Scanner;
+
+public class RPGGame{
+    public static void main(String[] args) {
+        //Make scanner object
+        Scanner myObj = new Scanner(System.in);
+
+        //Variables needed
+
+        //Ask user for character's name
+        System.out.println("What's the name of your character?"); 
+
+        //User inputs the character's name
+        String playername = myObj.nextLine();
+
+        //Deciding character stats here
+        int playerHealth = (int)(Math.random() * 21) + 80;
+        int playerAttack = (int)(Math.random() * 11) + 15;
+
+
+        //Deciding enemy stats here
+        int enemyHealth = (int)(Math.random() * 21) + 80;
+        int enemyAttack = (int)(Math.random() * 11) + 15;
+
+        //Create character and enemy objects
+        Character player = new Character(playername, playerHealth, playerAttack);
+        Character enemy = new Character("Evil Creechure", enemyHealth, enemyAttack);
+
+        //Print off the info of the character
+        System.out.println(player.name + " - Health: " + player.health + ", Attack: " + player.attackPower);
+        System.out.println(enemy.name + " - Health: " + enemy.health + ", Attack: " + enemy.attackPower);
+
+        //Put a loop here for a fight off between the character and enemy
+        while (player.isAlive() && enemy.isAlive()) {
+            //Asks the user what they want to do
+            System.out.println("Do you want to attack the enemy or heal yourself? (Type in attack or heal)");
+
+            //Whatever the user inputs that'll be in the string for this loop
+            String action = myObj.nextLine();
+
+            //Action if user types in attack
+            if (action.equalsIgnoreCase("attack")) {
+                player.attack(enemy);
+                //Action if user types in heal
+            } else if (action.equalsIgnoreCase("heal")) {
+                player.heal();
+                //Action if user goofs up with typing
+            } else{
+                System.out.println("Womp womp you lose a turn! Get better at typing next time.");
+            }
+
+            //Checks if the enemy is alive and if it is it attacks
+            if (enemy.isAlive()) {
+                enemy.attack(player);
+            }
+
+            //Prints out the health for both the character and enemy after they both have a turn
+            System.out.println(player.name + " health: " + player.health);
+            System.out.println(enemy.name + " health: " + enemy.health);
+        }
+
+        //After the loop do a if else statement to show if they win or lose
+        if (player.isAlive()) {
+            System.out.println("You defeated the enemy huzzah!");
+        } else {
+            System.out.println("You died bro 💀 💀 💀 Get better at video games idk.");
+        }
+
+        //Closes the scanner I made
+        myObj.close();
+    }
+}
