@@ -95,7 +95,7 @@ public class Classes_Functions {
         if (player.isAlive()) {
             System.out.println("You defeated the enemy huzzah!");
         } else {
-            System.out.println("You died bro 💀 💀 💀 Get better at video games idk.")
+            System.out.println("You died bro 💀 💀 💀 Get better at video games idk.");
         }
 
         //Closes the scanner I made
