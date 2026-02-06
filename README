@@ -47,6 +47,9 @@ I found these websites useful in developing this software:
 
 The following items I plan to fix, improve, and/or add to this project in the future:
 
-* [ ] First thing here
-* [ ]
-* [ ]
+* For the RPGGame put in precise stuff like healing that can't go pass the max health or the health can't show negative numbers and instead 0 if attack is higher than the health
+* Honestly make the radomization of the enemy and character stats more balanced since it really sucks in my opinion
+* Maybe muliple rounds and bosses even for RPGGame with the bosses having it's own unique rules
+* Unique events, inventory honestly good idea to show off storage instead of the random drawing but didn't know how much time I would have for it
+* I can do like easy, medium, and hard for the guessing number increasing the range of numbers that can be choosen for the secret number the higher the difficulty is
+* For the random drawing I would say if the user wants more person to be picked it can be inputted of how much winner there are and then the program picks out randomly that much winners. I think that will be cool.
