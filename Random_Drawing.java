@@ -22,16 +22,26 @@ public class Random_Drawing {
             break;
         }
 
+        //Checks if there's nothing in the input
+        if (name.isEmpty()) {
+            System.out.println("What was the point of that? You didn't type any names here blud. Try again and next time enter some names.");
+            continue;
+        }
+
         //Add the name to the array
         people.add(name);
     }
 
-    //Draw a random winner from the array list
+    //if there's nobody in the list
+    if (people.size() == 0) {
+        System.out.println("No winner... What are you expecting I can't pick someone to be a winner if there's nobody to even win to begin with.");
+    } else { //Draw a random winner from the array list
     int winnerIndex = (int) (Math.random() * people.size());
     String winner = people.get(winnerIndex);
 
     //Print out the winner
     System.out.println("The winner is: " + winner + " 🎉");
+    }
 
     myObj.close();
     }
