@@ -1,6 +1,11 @@
-# Project Title (Update)
+# Java Practice 
+I made 3 programs where 2 programs fill in two requirements each while the other program fills in one of the requirements
 
-Add a description of your project here.
+Conditionals_Loops: 
+
+Character, RPGGame: Two files are needed for this program. The Character file has the class and functions or methods found out that functions is called methods in Java. So Character file stores the class and methods which are the character maker, attack, heal, and checks if its alive which gets called in the RPGGame but you have to run both Character and RPGGame for it to work. RPGGame calls in Character while it also does things such as how the round will go, randomly give stats to the enemy and character, character actions that'll happen, and what will be printed out if you win or lose.
+
+Random_Drawing:
 
 ## Instructions for Build and Use
 
