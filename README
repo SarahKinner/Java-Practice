@@ -11,15 +11,16 @@ Random_Drawing: The program will ask the user to enter as much names as they wan
 
 Steps to build and/or run the software:
 
-1. First step here
-2.
-3.
+1. Download and add the software to visual studio code
+2. Make sure that you're in the right place which you can do with ls if you see the file you wanna run then you're good otherwise you're gonna have to use cd and go to where the file is
+3. Type in the terminal javac file_name.java this is to compile the file which needs to be done before you can run the program
+4. Type in the terminal java file_name
 
 Instructions for using the software:
 
-1. First step here
-2.
-3.
+1. Run the program to begin with by following the instructions that are given right above
+2. Enter whatever the program tells you to do whether it be a name, number, attack, or heal
+3. Be amazed or dissapointed on the program doing what it does mostly printing stuff
 
 ## Development Environment
 
