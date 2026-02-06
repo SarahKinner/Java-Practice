@@ -1,9 +1,9 @@
 # Java Practice 
 I made 3 programs where 2 programs fill in two requirements each while the other program fills in one of the requirements
 
-Conditionals_Loops: 
+Conditionals_Loops: So this is a guessing game. Each time the program starts a random number becomes assigned as the secret number the user can guess as many times as they want until they get it correct. Each time they get it wrong the program tells the user that either their guess is lower or higher than the secret number to make it easier for the user to guess the correct number next time.
 
-Character, RPGGame: Two files are needed for this program. The Character file has the class and functions or methods found out that functions is called methods in Java. So Character file stores the class and methods which are the character maker, attack, heal, and checks if its alive which gets called in the RPGGame but you have to run both Character and RPGGame for it to work. RPGGame calls in Character while it also does things such as how the round will go, randomly give stats to the enemy and character, character actions that'll happen, and what will be printed out if you win or lose.
+Character, RPGGame: Two files are needed for this program. The Character file has the class and functions or methods found out that functions is called methods in Java. So Character file stores the class and methods which are the character maker, attack, heal, and checks if its alive which gets called in the RPGGame but you have to run both Character and RPGGame for it to work. RPGGame calls in Character while it also does things such as how the round will go, randomly give stats to the enemy and character, character actions that'll happen, and what will be printed out if you win or lose. User will make a character see the stats for both the character and enemy. They get to type in a action they want to do and after both the user and enemy went it'll show the user both of their statuses untill one of them goes to 0.
 
 Random_Drawing:
 
