@@ -16,6 +16,8 @@ Steps to build and/or run the software:
 3. Type in the terminal javac file_name.java this is to compile the file which needs to be done before you can run the program
 4. Type in the terminal java file_name
 
+Note: For Character, RPGGame you can just RPGGame since Character will be called in RPGGame so don't have to run Character whatsoever!
+
 Instructions for using the software:
 
 1. Run the program to begin with by following the instructions that are given right above
