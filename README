@@ -5,7 +5,7 @@ Conditionals_Loops: So this is a guessing game. Each time the program starts a r
 
 Character, RPGGame: Two files are needed for this program. The Character file has the class and functions or methods found out that functions is called methods in Java. So Character file stores the class and methods which are the character maker, attack, heal, and checks if its alive which gets called in the RPGGame but you have to run both Character and RPGGame for it to work. RPGGame calls in Character while it also does things such as how the round will go, randomly give stats to the enemy and character, character actions that'll happen, and what will be printed out if you win or lose. User will make a character see the stats for both the character and enemy. They get to type in a action they want to do and after both the user and enemy went it'll show the user both of their statuses untill one of them goes to 0.
 
-Random_Drawing:
+Random_Drawing: The program will ask the user to enter as much names as they want for the raffle and once the user types in 'done' the program will randomly pick from the list of people that the user typed in and then announce the winner they got picked.
 
 ## Instructions for Build and Use
 
